@@ -1,5 +1,4 @@
 Configuration files for our video and lab on Switching basics:
-The video can be found here:
+The video can be found here: https://youtu.be/pSJ3oyQ7gkI
 
-[Screenshot_17-7-2025_81136_eve.null0labs.net.jpeg
-](https://github.com/null0labs/Switching-Basics/blob/main/Screenshot_17-7-2025_81136_eve.null0labs.net.jpeg?raw=true)
+![Screenshot](Screenshot_17-7-2025_81136_eve.null0labs.net.jpeg)
