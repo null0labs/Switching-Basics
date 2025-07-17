@@ -46,7 +46,7 @@ spanning-tree vlan 10,20,30 priority 61440
 !
 !
 interface Port-channel1
- description TRUNK_DOWN_STREAM
+ description TRUNK_UPSTREAM
  switchport trunk allowed vlan 10,20,30
  switchport trunk encapsulation dot1q
  switchport mode trunk
@@ -86,16 +86,16 @@ interface GigabitEthernet1/0
  negotiation auto
 !
 interface GigabitEthernet1/1
-shutdown 
-negotiation auto
+ shutdown 
+ negotiation auto
 !
 interface GigabitEthernet1/2
-shutdown 
-negotiation auto
+ shutdown 
+ negotiation auto
 !
 interface GigabitEthernet1/3
-shutdown 
-negotiation auto
+ shutdown 
+ negotiation auto
 !
 ip forward-protocol nd
 !
