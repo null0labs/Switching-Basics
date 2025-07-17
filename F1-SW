@@ -81,15 +81,19 @@ interface GigabitEthernet0/3
  channel-group 1 mode active
 !
 interface GigabitEthernet1/0
+ shutdown
  negotiation auto
 !
 interface GigabitEthernet1/1
+ shutdown
  negotiation auto
 !
 interface GigabitEthernet1/2
+ shutdown
  negotiation auto
 !
 interface GigabitEthernet1/3
+ shutdown
  negotiation auto
 !
 ip forward-protocol nd
